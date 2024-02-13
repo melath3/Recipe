@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; 
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color:  hsl(30, 54%, 90%);
+
+    }
+
+    .text-style{
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+    }
+
+    .container{
+      width:  655px;
+      background-color: hsl(0, 0%, 100%);
+      margin: 50px 0px 20px 500px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      
+    }
+    img{
+      width: 590px;
+      margin: 30px 30px 30px 30px;
+      border-radius: 10px;
+    }
+
+    h2{
+      text-align: left;
+      font-family: "Young Serif", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .firstul{
+      background-color: hsl(330, 100%, 98%);
+      margin: 30px 30px 30px 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left:25px;
+      border-radius: 10px;
+      list-style-position: outside;
+
+    }
+    .title-top{
+      margin-left: 30px;
+      color:  hsl(24, 5%, 18%);
+    }
+    .text{
+      margin: 0px 30px 0px 30px;
+      color: hsl(30, 10%, 34%);
+    }
+
+    h3{
+      margin-left:15px;
+      color:hsl(330, 100%, 28%);
+      font-weight: bolder;
+      
+      
+    }
+    .firstli{
+      padding-left:5px;
+      color: hsl(24, 5%, 18%);
+    }
+     h2{
+      margin-left:30px;
+      color: hsl(1, 54%, 40%);
+    }
+
+    .secondul{
+        margin-top: 0px;
+        margin-left: 10px;
+        list-style-position: outside;
+        color:hsl(30, 10%, 34%);
+        list-style-type: square;
+
+    }
+
+    ol{
+      margin-top: 0px;
+      color: hsl(1, 54%, 40%);
+    }
+
+    .secondli{
+      margin-left:15px;
+      margin-right: 30px;
+      color: hsl(24, 5%, 18%);
+
+    }
+
+    li::marker {
+      color: hsl(1, 54%, 40%);
+}
+
+table{
+   margin-left: 60px;
+   margin-right: 30px;
+  
+
+}
+
+table th {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.th-first{
+  color:hsl(30, 10%, 34%);
+
+}
+
+.th-second{
+  color: hsl(1, 54%, 40%);
+
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="./assets/images/image-omelette.jpeg" alt="omelette image">
+  <h1 class="title-top">Simple Omelette Recipe</h1>
+
+  <p class="text text-style">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+
+  <div class="firstul text-style">
+    <h3>Preparation time</h3>
+    <ul >
+       <li class="firstli"><strong>Total</strong>: Approximately 10 minutes</li>
+       <br>
+       <li class="firstli"><strong>Preparation</strong>: 5 minutes</li>
+       <br>
+       <li class="firstli"><strong>Cooking</strong>: 5 minutes</li>
+    </ul>
+  </div>
+
+  <h2 class="firsth2">Ingredients</h2>
+    <ul class="secondul text-style">
+     <li>2-3 large eggs</li>
+     <br>
+     <li>Salt, to taste</li>
+     <br>
+     <li>Pepper, to taste</li>
+     <br>
+     <li>tablespoon of butter or oil</1i>
+      <br>
+      <br>
+     <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+    </ul>
+
+  <h2>Instructions</h2>
+    <ol class="text-style">
+      <li class="secondli">
+        <strong>Beat the eggs</strong>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+        You can add a tablespoon of water or milk for a fluffier texture.
+      </li>
+       <br>
+      <li class="secondli">
+        <strong>
+        Heat the pan</strong>: Place a non-stick frying pan over medium heat and add butter or oil.
+      </li>
+       <br>
+      <li class="secondli">
+        <strong>Cook the omelette</strong>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+        the eggs evenly coat the surface.
+      </li>
+       <br>
+      <li class="secondli">
+        <strong>Add fillings (optional)</strong>: When the eggs begin to set at the edges but are still slightly runny in the 
+        middle, sprinkle your chosen fillings over one half of the omelette.
+      </li>
+        <br>
+      <li class="secondli">
+        <strong>Fold and serve</strong>: As the omelette continues to cook, carefully lift one edge and fold it over the 
+        fillings. Let it cook for another minute, then slide it onto a plate.
+      </li>
+        <br>
+      <li class="secondli">
+        <strong>Enjoy</strong>: Serve hot, with additional salt and pepper if needed.
+      </li>
+
+    </ol>
+  <h2>Nutrition</h2>
+
+  <p class="text text-style">The table below shows nutritional values per serving without the additional fillings.</p>
+
+  <table class="table-st text-style">
+    <tr>
+      <th class="th-first"><span>Calories</span></th>
+      <th class="th-second"><span>277kcal</span></th>
+    </tr>
+    <tr>
+      <th class="th-first"> <span>Carbs</span></th>
+      <th class="th-second"> <span>0g</span></th>
+    </tr>
+    <hr>
+    <tr>
+      <th class="th-first"><span>Protein</span></th>
+      <th class="th-second"><span>20g</span></th>
+    </tr>
+    <tr>
+      <th class="th-first">  <span>Fat</span></th>
+      <th class="th-second"> <span>22g</span></th>
+    </tr>
+        
+  </table>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Melat Hagos</a>.
+  </div>
+</body>
+</html>
